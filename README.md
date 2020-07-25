@@ -1,0 +1,2 @@
+# MNIST_CNN
+Here we are working with 55,000 training images and 10,000 testing images of  MINIST dataset. We are implementing CNN with the help of tensorflow. The architecture consists of two convolutional layers along with the two pooling layers . At the end we are passing the data through the single dense layer to produce the accuracy of 98.76. To avoid overfitting we are using Adam optimizer and we are passing the training data in the batches of 50 which we are running 25 times.
